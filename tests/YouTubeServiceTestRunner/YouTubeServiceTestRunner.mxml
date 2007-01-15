@@ -7,7 +7,7 @@
 	<mx:Script>
 		<![CDATA[
 					
-		import com.adobe.webapis.youtube.tests.YouTubeServiceTest;
+		import com.adobe.webapis.youtube.YouTubeServiceTest;
 		import flexunit.framework.TestSuite;
 					
 		private function onCreationComplete():void
