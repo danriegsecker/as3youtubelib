@@ -33,7 +33,7 @@
 	ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-package com.adobe.webapis.youtube.tests
+package com.adobe.webapis.youtube
 {
 	import flash.events.Event;
 	import flexunit.framework.TestCase;
@@ -49,8 +49,8 @@ package com.adobe.webapis.youtube.tests
 		
 		public function testAPIKEY():void
 		{
-			assertNotNull("You must set your API ket in com.adobe.webapis.youtube.tests.YouTubeServiceTest", 
-																				YouTubeServiceTest.API_KEY);
+			assertTrue( "You must set your API ket in com.adobe.webapis.youtube.YouTubeServiceTest", 
+						YouTubeServiceTest.API_KEY.length > 0 );
 		}
 		
 		public function testConstruct():void
