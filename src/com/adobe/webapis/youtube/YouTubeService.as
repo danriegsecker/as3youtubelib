@@ -61,7 +61,7 @@ package com.adobe.webapis.youtube
 	* 	@see #com.adobe.webapis.youtube.Profile
 	*/
 	[Event(name="onGetProfile", 
-		 type="com.adobe.webapis.youtube.events.YouTubeServicetEvent")]		
+		 type="com.adobe.webapis.youtube.events.YouTubeServiceEvent")]		
 
 	/**
 	* 	Broadcast when video information has been loaded from YouTube in response to
@@ -80,7 +80,7 @@ package com.adobe.webapis.youtube
 	* 	@see #com.adobe.webapis.youtube.Video
 	*/
 	[Event(name="onListFavoriteVideos", 
-		 type="com.adobe.webapis.youtube.events.YouTubeServicetEvent")]		
+		 type="com.adobe.webapis.youtube.events.YouTubeServiceEvent")]		
 	
 	/**
 	* 	Broadcast when video information has been loaded from YouTube in response to
@@ -99,7 +99,7 @@ package com.adobe.webapis.youtube
 	* 	@see #com.adobe.webapis.youtube.Friend
 	*/
 	[Event(name="onListFriends", 
-		 type="com.adobe.webapis.youtube.events.YouTubeServicetEvent")]		
+		 type="com.adobe.webapis.youtube.events.YouTubeServiceEvent")]		
 	
 	/**
 	* 	Broadcast when video information has been loaded from YouTube in response to
@@ -118,7 +118,7 @@ package com.adobe.webapis.youtube
 	* 	@see #com.adobe.webapis.youtube.VideoDetails
 	*/
 	[Event(name="onGetDetails", 
-		 type="com.adobe.webapis.youtube.events.YouTubeServicetEvent")]	
+		 type="com.adobe.webapis.youtube.events.YouTubeServiceEvent")]	
 	
 	/**
 	* 	Broadcast when video information has been loaded from YouTube in response to
@@ -137,7 +137,7 @@ package com.adobe.webapis.youtube
 	* 	@see #com.adobe.webapis.youtube.Video
 	*/
 	[Event(name="onListByUser", 
-		 type="com.adobe.webapis.youtube.events.YouTubeServicetEvent")]	
+		 type="com.adobe.webapis.youtube.events.YouTubeServiceEvent")]	
 	
 	/**
 	* 	Broadcast when video information has been loaded from YouTube in response to
@@ -156,7 +156,7 @@ package com.adobe.webapis.youtube
 	* 	@see #com.adobe.webapis.youtube.Video
 	*/
 	[Event(name="onListByTag", 
-		 type="com.adobe.webapis.youtube.events.YouTubeServicetEvent")]		
+		 type="com.adobe.webapis.youtube.events.YouTubeServiceEvent")]		
 	
 	/**
 	* 	Broadcast when video information has been loaded from YouTube in response to
@@ -175,7 +175,7 @@ package com.adobe.webapis.youtube
 	* 	@see #com.adobe.webapis.youtube.Video
 	*/
 	[Event(name="onListFeatured", 
-		 type="com.adobe.webapis.youtube.events.YouTubeServicetEvent")]		
+		 type="com.adobe.webapis.youtube.events.YouTubeServiceEvent")]		
 	
 	/**
 	 * The YouTubeService class abstracts all functionality for the YouTube
