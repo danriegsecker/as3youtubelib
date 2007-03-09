@@ -55,7 +55,7 @@ package com.adobe.webapis.youtube
 	*	@playerversion Flash 8.5
 	*	@tiptext
 	*   
-	*	@eventType com.adobe.webapis.youtube.events.YouTubeServicetEvent.USERS_GET_PROFILE
+	*	@eventType com.adobe.webapis.youtube.events.YouTubeServiceEvent.USERS_GET_PROFILE
 	* 
 	* 	@see #com.adobe.webapis.youtube.methodgroups.Users.getProfile
 	* 	@see #com.adobe.webapis.youtube.Profile
@@ -74,7 +74,7 @@ package com.adobe.webapis.youtube
 	*	@playerversion Flash 8.5
 	*	@tiptext
 	*   
-	*	@eventType com.adobe.webapis.youtube.events.YouTubeServicetEvent.USERS_LIST_FAVORITE_VIDEOS
+	*	@eventType com.adobe.webapis.youtube.events.YouTubeServiceEvent.USERS_LIST_FAVORITE_VIDEOS
 	* 
 	* 	@see #com.adobe.webapis.youtube.methodgroups.Users.listFavoriteVideo
 	* 	@see #com.adobe.webapis.youtube.Video
@@ -93,7 +93,7 @@ package com.adobe.webapis.youtube
 	*	@playerversion Flash 8.5
 	*	@tiptext
 	*   
-	*	@eventType com.adobe.webapis.youtube.events.YouTubeServicetEvent.USERS_LIST_FRIENDS
+	*	@eventType com.adobe.webapis.youtube.events.YouTubeServiceEvent.USERS_LIST_FRIENDS
 	* 
 	* 	@see #com.adobe.webapis.youtube.methodgroups.Users.listFriends
 	* 	@see #com.adobe.webapis.youtube.Friend
@@ -112,7 +112,7 @@ package com.adobe.webapis.youtube
 	*	@playerversion Flash 8.5
 	*	@tiptext
 	*   
-	*	@eventType com.adobe.webapis.youtube.events.YouTubeServicetEvent.VIDEOS_GET_DETAILS
+	*	@eventType com.adobe.webapis.youtube.events.YouTubeServiceEvent.VIDEOS_GET_DETAILS
 	* 
 	* 	@see #com.adobe.webapis.youtube.methodgroups.Videos.getDetails
 	* 	@see #com.adobe.webapis.youtube.VideoDetails
@@ -131,7 +131,7 @@ package com.adobe.webapis.youtube
 	*	@playerversion Flash 8.5
 	*	@tiptext
 	*   
-	*	@eventType com.adobe.webapis.youtube.events.YouTubeServicetEvent.VIDEOS_LIST_BY_USER
+	*	@eventType com.adobe.webapis.youtube.events.YouTubeServiceEvent.VIDEOS_LIST_BY_USER
 	* 
 	* 	@see #com.adobe.webapis.youtube.methodgroups.Videos.listByUser
 	* 	@see #com.adobe.webapis.youtube.Video
@@ -150,7 +150,7 @@ package com.adobe.webapis.youtube
 	*	@playerversion Flash 8.5
 	*	@tiptext
 	*   
-	*	@eventType com.adobe.webapis.youtube.events.YouTubeServicetEvent.VIDEOS_LIST_BY_TAG
+	*	@eventType com.adobe.webapis.youtube.events.YouTubeServiceEvent.VIDEOS_LIST_BY_TAG
 	* 
 	* 	@see #com.adobe.webapis.youtube.methodgroups.Videos.listByTag
 	* 	@see #com.adobe.webapis.youtube.Video
@@ -169,7 +169,7 @@ package com.adobe.webapis.youtube
 	*	@playerversion Flash 8.5
 	*	@tiptext
 	*   
-	*	@eventType com.adobe.webapis.youtube.events.YouTubeServicetEvent.VIDEOS_LIST_FEATURED
+	*	@eventType com.adobe.webapis.youtube.events.YouTubeServiceEvent.VIDEOS_LIST_FEATURED
 	* 
 	* 	@see #com.adobe.webapis.youtube.methodgroups.Videos.listFeatured
 	* 	@see #com.adobe.webapis.youtube.Video
